@@ -1,0 +1,20 @@
+<h1>Listing posts</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Title</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+<%= render 'posts' %>
+
+</table>
+
+<br />
+
+
+<%= link_to 'New Post', new_post_path %>
+
+<%= link_to 'test me', new_post_path(color: 'blue'), remote: true %>

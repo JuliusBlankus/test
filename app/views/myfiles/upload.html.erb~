@@ -1,0 +1,5 @@
+<%= @uploaded1.size %><br />
+<%= @uploaded2.size %><br />
+<%= @desc %><br />
+
+<%= img_tag IO.binread(@n,  @uploaded1.size, 22) %>

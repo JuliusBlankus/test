@@ -1,0 +1,9 @@
+<h1>Myfiles#index</h1>
+<p>Find me in app/views/myfiles/index.html.erb</p>
+
+<%= form_tag({:action => :upload}, :multipart => true) do %>
+<%= file_field_tag 'picture1' %><br />
+<%= file_field_tag 'picture2' %><br />
+<%= text_field_tag 'description' %>
+<%= submit_tag 'upload'%>
+<% end %>
